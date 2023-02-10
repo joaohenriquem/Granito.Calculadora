@@ -17,10 +17,10 @@ Projeto criado para testes
 
 ## Docker
 
-Navegar até a pasta src/CalculaJuros e executar os comandos abaixo:
- docker build -t calculajuros:1.0 .
- docker run -d -p 5001:80 calculajuros:1.0
+* Navegar até a pasta src/CalculaJuros e executar os comandos abaixo:
+* docker build -t calculajuros:1.0 .
+* docker run -d -p 5001:80 calculajuros:1.0
  
-Navegar até a pasta src/Taxas e executar os comandos abaixo:
- docker build -t taxas:1.0 .
- docker run -d -p 5002:80 taxas:1.0
+* Navegar até a pasta src/Taxas e executar os comandos abaixo:
+* docker build -t taxas:1.0 .
+* docker run -d -p 5002:80 taxas:1.0
