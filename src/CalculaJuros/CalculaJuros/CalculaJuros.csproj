@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.ResponseCompression" Version="2.2.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.4" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.5.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CalculaJuros.Application\CalculaJuros.Application.csproj" />
+    <ProjectReference Include="..\CalculaJuros.Core\CalculaJuros.Core.csproj" />
+    <ProjectReference Include="..\CalculaJuros.Services\CalculaJuros.Services.csproj" />
+  </ItemGroup>
+
+</Project>
